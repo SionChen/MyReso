@@ -20,8 +20,8 @@
     [[UIApplication sharedApplication] setApplicationSupportsShakeToEdit:YES];
     
     
-    
-    
+    UILabel * mtLabel = [[UILabel alloc] init];
+    [self.view addSubview:mtLabel];
 }
 
 
