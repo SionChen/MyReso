@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     [[UIApplication sharedApplication] setApplicationSupportsShakeToEdit:YES];
     
-    //我擦泪
+    
     
     
 }
