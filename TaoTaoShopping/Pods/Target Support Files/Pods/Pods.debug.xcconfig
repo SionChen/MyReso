@@ -1,9 +1,0 @@
-EXCLUDED_SOURCE_FILE_NAMES[sdk=iphoneos*][arch=*] = ZBarReaderViewImpl_Simulator.m
-EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*][arch=*] = ZBarReaderViewImpl_Capture.m ZBarCaptureReader.m
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/ShareSDK3/libraries" "${PODS_ROOT}/ShareSDK3/libraries/extends/QQSDK" "${PODS_ROOT}/ShareSDK3/libraries" "${PODS_ROOT}/ShareSDK3/libraries" "${PODS_ROOT}/ShareSDK3/libraries"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 NDEBUG=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/ShareSDK3" "${PODS_ROOT}/Headers/Public/ZBarSDK"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/ShareSDK3/libraries/extends/SinaWeiboSDK" $(inherited) "${PODS_ROOT}/ShareSDK3/libraries/extends/WeChatSDK"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/MJRefresh" -isystem "${PODS_ROOT}/Headers/Public/ShareSDK3" -isystem "${PODS_ROOT}/Headers/Public/ZBarSDK"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"MJRefresh" -l"WeChatSDK" -l"WeiboSDK" -l"ZBarSDK" -l"iconv" -l"icucore" -l"sqlite3" -l"stdc++" -l"z" -l"z.1.2.5" -framework "AVFoundation" -framework "AdSupport" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreVideo" -framework "ImageIO" -framework "JavaScriptCore" -framework "MOBFoundation" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "ShareSDK" -framework "ShareSDKConnector" -framework "ShareSDKExtension" -framework "SystemConfiguration" -framework "TencentOpenAPI" -framework "UIKit"
-PODS_ROOT = ${SRCROOT}/Pods
